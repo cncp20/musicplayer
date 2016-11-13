@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:id="@+id/ll_nf_control"
+    android:background="#fff"
+    >
+
+    <ImageView
+        android:id="@+id/iv_nf_music_pic"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:padding="3dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/music_bottom"/>
+    <!--
+    <LinearLayout
+        android:id="@+id/ll_nf_name"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_nf_music_name"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="6"
+            android:text="听见好时光"
+            android:gravity="center"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/tv_nf_music_author"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:text=""
+            android:gravity="center"
+            android:textColor="#7D7D7D"
+            android:textSize="10sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginRight="10dp">
+        <ImageButton
+            android:id="@+id/ib_nf_play"
+            android:layout_width="45dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/playbar_btn_play"/>
+
+        <ImageButton
+            android:id="@+id/ib_nf_next"
+            android:layout_width="45dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/bottom_bar_next"/>
+    </LinearLayout>
+
+    -->
+
+
+
+</LinearLayout>
